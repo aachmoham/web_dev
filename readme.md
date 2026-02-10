@@ -1,7 +1,7 @@
 # Basic Web Development
 
-- Academiejaar: 
-- Opleiding: 
-- Klasgroep: 
-- Naam: 
+- Academiejaar: 25-26
+- Opleiding: Graduaat Systeem- & Netwerkbeheer
+- Klasgroep: Februari starter - 25-26
+- Naam: Mohamed Aachaoui
 
