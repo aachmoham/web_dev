@@ -10,7 +10,7 @@
    <!-- site styles -->
    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 </head>
 
 <body>
@@ -76,28 +76,36 @@
 
          <!--formulier voor het filteren-->
          <span class="material-symbols-outlined">
-            filter_list FILTERS</span><br>
-         <form action="#">
+            filter_list</span>FILTERS<br>
 
-            <label for="category"></label>
-            <select id="category">
-               <option value="-1">category</option>
-               <option value="0">dolls</option>
-               <option value="1">cars</option>
-               <option value="2">games</option>
+         <form action="#">
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+               <option value="">Category...</option>
+               <option value="dolls">Dolls</option>
+               <option value="cars">Cars</option>
+               <option value="games">Games</option>
             </select>
 
-            <label>year:</label>
-            <label><input type="checkbox">50's</label>
-            <label><input type="checkbox">60's</label>
+            <label>Year:</label>
+            <input type="checkbox" id="year-50s" name="year1" value="50s">
+            <label for="year-50s">50's</label>
 
-            <label>state:</label>
-            <label><input type="radio" name="state">to do</label>
-            <label><input type="radio" name="state">doing</label>
-            <label><input type="radio" name="state">done</label>
+            <input type="checkbox" id="year-60s" name="year2" value="60s">
+            <label for="year-60s">60's</label>
+
+            <label>State:</label>
+            <input type="radio" id="todo" name="state" value="todo">
+            <label for="todo">Todo</label>
+
+            <input type="radio" id="doing" name="state" value="doing">
+            <label for="doing">Doing</label>
+
+            <input type="radio" id="done" name="state" value="done">
+            <label for="done">Done</label>
 
             <button type="button">X clear</button>
-            <button type="submit">apply</button>
+            <button type="submit">Apply</button>
          </form>
 
 
