@@ -59,20 +59,20 @@ h1 {
 
 
 main {
-    font-family: "Indie Flower"
+    font-family: "Indie Flower", serif;
 }
 
 
 /* deel 4: tekstopmaak */
 
 span {
-    color: rgb(163, 54, 54);
+    color: #A33636;
 }
 
 mark {
     text-transform: uppercase;
     font-weight: 700;
-    background-color: rgb(216 184 146 / 0.486);
+    background-color: #D8B8927C;
     color: black;
 }
 
@@ -85,17 +85,17 @@ h1 {
 p {
     font-size: 25px;
     line-height: 1.4;
-    color: rgb(26, 26, 129);
+    color:#1A1A81;
     padding: 5px;
 }
 
 footer .salute{
-    font-family: "Indie Flower";
+    font-family: "Indie Flower", serif;
     text-align: right;
 }
 
 footer .date{
-    font-family: "Indie Flower";
+    font-family: "Indie Flower", serif;
     text-align: right;
     font-size: 15px;
 }
