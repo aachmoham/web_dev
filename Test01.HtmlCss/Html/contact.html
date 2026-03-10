@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De leeshoek</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="" width="100px">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Studieplek reserveren</h1>
+        <p>Wil je een studieplek reserveren in De Leeshoek? Vul het formulier hieronder in en we bevestigen je aanvraag
+            via e-mail.</p>
+        <form action="#">
+            <fieldset>
+                <legend>Jouw gegevens</legend>
+                <div>
+                    <label for="naam">Naam*</label>
+                    <input id="naam" type="text" placeholder="Voornaam Achternaam" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email*</label>
+                    <input id="email" type="email" placeholder="naam@voorbeeld.be" required>
+                </div>
+                <br>
+                <div>
+                    <label for="datum">Datum*</label>
+                    <input id="datum" type="date" required>
+                </div>
+                <br>
+                <div>
+                    <label for="opmerking">Opmerking*</label>
+                    <textarea id="opmerking" placeholder="Extra info (bijv. voorkeur plaats, examenperiode …)"
+                        required></textarea>
+                </div>
+                <br>
+                <div>
+                    <label><input type="checkbox" value="akkoord"> Ik ga akkoord met de afspraken</label>
+                </div>
+            </fieldset>
+            <div>
+                <button type="submit">Verzenden</button>
+                <button type="reset">Wissen</button>
+            </div>
+
+        </form>
+
+        <h2>Vind ons</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5038.5766301946915!2d4.357931276610622!3d50.84434507167011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c480e4d9f919%3A0x25fb998b6ef18d63!2sBaron%20Hortastraat%2012%2C%201000%20Brussel!5e0!3m2!1snl!2sbe!4v1773137063579!5m2!1snl!2sbe"
+            width="600" height="450" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+
+    <footer>
+        <address>
+            <p>📧 <a href="mailto:info@leeshoek.tld">info@leeshoek.tld</a></p>
+            <p>📞 <a href="tel:0123/40.00.00">0123/40.00.00</a></p>
+        </address>
+        <small>© Stadsbibliotheek De Leeshoek — Alle rechten voorbehouden</small>
+    </footer>
+</body>
+
+</html>
