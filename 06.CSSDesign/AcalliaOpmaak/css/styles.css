@@ -1,0 +1,155 @@
+/**
+ *
+ * Common styles
+ *
+ * @MohamedAachaoui !put your name here!
+ *
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+/* html, body and general element styles here */
+
+
+html{
+   background-color: rgb(180, 175, 175);
+}
+
+body  {
+   background-color: white;
+}
+
+
+
+/* ===========================================
+   Menu | HOVER 
+   =========================================== */
+
+/* menu styles here */
+
+
+nav ul{
+   display: flex;
+   gap: 30px;
+   text-decoration: none;
+   list-style: none;
+}
+
+
+nav li{
+   padding: 5px;
+}
+
+nav li:hover{
+   background-color: red;
+   color: white;
+}
+
+nav a:hover{
+   color: white;
+   text-decoration: none;
+}
+
+nav a{
+   color: black;
+   text-decoration: none;
+}
+
+/* ===========================================
+   Banner
+   =========================================== */
+
+/* banner styles here */
+
+#banner{
+   border-width: 7px;
+   border-color: red;
+   background-image: url(../img/banner.jpg);
+}
+
+#banner p{
+   background-color: rgb(0, 0, 0);
+   color: white;
+   opacity: 70%;
+}
+
+
+
+
+/* ===========================================
+   Main
+   =========================================== */
+
+/* main styles here */
+
+h3{
+   text-transform: uppercase;
+   color: red;
+}
+
+
+h3::after{
+   content: " →";
+   color: red;
+}
+
+#content img{
+   border: 5px solid #dfdfdf;
+
+}
+
+.more {
+   text-align: right;
+   
+}
+
+.more a {
+   color: red;
+   text-decoration:none;
+   padding: 5px 10px;
+   outline: auto red;
+
+}
+
+.more a::after{
+   content: " →";
+}
+
+.newsletter label{
+   color: white;
+}
+
+.newsletter input[type="text"] {
+   background-color: #fdecec; 
+   color: #333; 
+   border: 1px solid #f5a3a3; 
+   padding: 10px; 
+}
+
+.newsletter button[type="submit"]{
+   background-color: rgba(172, 25, 25, 0.89);
+}
+
+.newsletter button[type="submit"]:hover{
+   color: rgb(255, 255, 255);
+}
+/* ===========================================
+   Footer
+   =========================================== */
+
+/* footer styles here */
+
+
+footer p{
+   color: black;
+}
+
+
+footer{
+   text-align: center;
+   background-color: gray;
+   padding: 20px;
+   background: linear-gradient(to top, #332e2e, #f1cdcd); 
+}
