@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <script type="module" src="src/main.js"></script>
+</head>
+
+<body class="bg-[var(--kleur-licht)] text-gray-900">
+
+    <!-- NAVBAR -->
+    <nav class="bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+
+            <!-- LOGO -->
+            <a href="index.html" class="text-2xl font-bold text-[var(--kleur-hoofd)]">De Ovenbuur</a>
+
+            <!-- DESKTOP MENU -->
+            <div class="hidden md:flex space-x-6 font-medium text-gray-800">
+                <a href="index.html" class="hover:text-[var(--kleur-hoofd)] transition">Home</a>
+                <a href="wie-we-zijn.html" class="hover:text-[var(--kleur-hoofd)] transition">Over ons</a>
+                <a href="product.html" class="hover:text-[var(--kleur-hoofd)] transition">Producten</a>
+                <a href="winkelkar.html" class="hover:text-[var(--kleur-hoofd)] transition">Winkelkar</a>
+                <a href="contact.html" class="hover:text-[var(--kleur-hoofd)] transition">Contact</a>
+                <a href="jobs.html" class="hover:text-[var(--kleur-hoofd)] transition">Jobs</a>
+            </div>
+
+            <!-- MOBILE HAMBURGER BUTTON -->
+            <div class="md:hidden">
+                <button type="button" aria-label="#" id="mobile-menu-button" class="text-gray-800 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+
+        <!-- MOBILE MENU -->
+        <div id="mobile-menu" class="hidden md:hidden px-4 pb-4">
+            <a href="index.html" class="block py-2 hover:text-[var(--kleur-hoofd)] transition">Home</a>
+            <a href="wie-we-zijn.html" class="block py-2 hover:text-[var(--kleur-hoofd)] transition">Over ons</a>
+            <a href="product.html" class="block py-2 hover:text-[var(--kleur-hoofd)] transition">Producten</a>
+            <a href="winkelkar.html" class="block py-2 hover:text-[var(--kleur-hoofd)] transition">Winkelkar</a>
+            <a href="contact.html" class="block py-2 hover:text-[var(--kleur-hoofd)] transition">Contact</a>
+            <a href="jobs.html" class="block py-2 hover:text-[var(--kleur-hoofd)] transition">Jobs</a>
+        </div>
+    </nav>
+    <!-- HEADER -->
+    <section class="max-w-3xl mx-auto text-center py-16 px-6">
+
+        <h1 class="text-4xl font-bold text-black mb-4">
+            Contacteer ons
+        </h1>
+
+        <p class="text-gray-700">
+            Heb je een vraag, bestelling of wil je samenwerken? We helpen je graag verder.
+        </p>
+
+    </section>
+
+    <!-- FORM -->
+    <section class="max-w-2xl mx-auto px-6 pb-20">
+
+        <form class="space-y-6">
+
+            <!-- Naam -->
+            <div>
+                <label class="block text-sm font-medium mb-2 text-black">Naam</label>
+                <input type="text"
+                    class="w-full border border-black p-3 text-black placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-black"
+                    placeholder="Jouw naam">
+            </div>
+
+            <!-- Email -->
+            <div>
+                <label class="block text-sm font-medium mb-2 text-black">Email</label>
+                <input type="email"
+                    class="w-full border border-black p-3 text-black placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-black"
+                    placeholder="jouw@email.com">
+            </div>
+
+            <!-- Bericht -->
+            <div>
+                <label class="block text-sm font-medium mb-2 text-black">Bericht</label>
+                <textarea rows="5"
+                    class="w-full border border-black p-3 text-black placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-black"
+                    placeholder="Typ je bericht..."></textarea>
+            </div>
+
+            <!-- Button -->
+            <button type="submit" class="w-full bg-black text-white py-3 hover:bg-gray-900 transition">
+                Verstuur bericht
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- INFO -->
+    <section class="border-t py-10 text-center text-sm">
+
+        <p class="text-gray-800">
+            De Ovenbuur • Ambachtelijk brood &amp; koffie
+        </p>
+
+        <p class="text-gray-600">
+            Brussels, België
+        </p>
+
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Winkelkar</title>
+    <script type="module" src="src/main.js"></script>
+</head>
+
+<body class="bg-gradient-to-b from-[#e6d6c7] to-[#d9c4b1] text-gray-900">
+
+    <!-- NAVBAR -->
+    <nav class="bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+
+            <!-- LOGO -->
+            <a href="index.html" class="text-2xl font-bold text-[var(--kleur-hoofd)]">De Ovenbuur</a>
+
+            <!-- DESKTOP MENU -->
+            <div class="hidden md:flex space-x-6 font-medium text-gray-800">
+                <a href="index.html" class="hover:text-[var(--kleur-hoofd)] transition">Home</a>
+                <a href="wie-we-zijn.html" class="hover:text-[var(--kleur-hoofd)] transition">Over ons</a>
+                <a href="product.html" class="hover:text-[var(--kleur-hoofd)] transition">Producten</a>
+                <a href="winkelkar.html" class="hover:text-[var(--kleur-hoofd)] transition">Winkelkar</a>
+                <a href="contact.html" class="hover:text-[var(--kleur-hoofd)] transition">Contact</a>
+                <a href="jobs.html" class="hover:text-[var(--kleur-hoofd)] transition">Jobs</a>
+            </div>
+
+            <!-- MOBILE HAMBURGER BUTTON -->
+            <div class="md:hidden">
+                <button type="button" aria-label="#" id="mobile-menu-button" class="text-gray-800 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+
+        <!-- MOBILE MENU -->
+        <div id="mobile-menu" class="hidden md:hidden px-4 pb-4">
+            <a href="index.html" class="block py-2 hover:text-[var(--kleur-hoofd)] transition">Home</a>
+            <a href="wie-we-zijn.html" class="block py-2 hover:text-[var(--kleur-hoofd)] transition">Over ons</a>
+            <a href="product.html" class="block py-2 hover:text-[var(--kleur-hoofd)] transition">Producten</a>
+            <a href="winkelkar.html" class="block py-2 hover:text-[var(--kleur-hoofd)] transition">Winkelkar</a>
+            <a href="contact.html" class="block py-2 hover:text-[var(--kleur-hoofd)] transition">Contact</a>
+            <a href="jobs.html" class="block py-2 hover:text-[var(--kleur-hoofd)] transition">Jobs</a>
+        </div>
+    </nav>
+
+    <!-- PAGE -->
+    <section class="max-w-4xl mx-auto p-6 md:p-10">
+
+        <h1 class="text-3xl font-bold mb-8">Jouw winkelkar</h1>
+
+        <!-- ITEM 1 -->
+        <div class="bg-[#e9ddcf] rounded-2xl shadow-md p-4 flex gap-4 items-center mb-6 border border-[#d8c7b6]">
+
+            <img src="images/brood.jpg" class="w-24 h-24 rounded-xl object-cover" alt="Zuurdesembrood">
+
+            <div class="flex-1">
+                <h2 class="font-semibold text-lg text-[var(--kleur-hoofd)]]">Zuurdesembrood</h2>
+                <p class="text-gray-500 text-sm">Ambachtelijk vers gebakken</p>
+            </div>
+
+            <div class="text-right">
+                <p class="font-bold text-[var(--kleur-hoofd)]">€4.50</p>
+                <p class="text-sm text-gray-500">x2</p>
+            </div>
+
+        </div>
+
+        <!-- ITEM 2 -->
+        <div class="bg-[#e9ddcf] rounded-2xl shadow-md p-4 flex gap-4 items-center mb-6 border border-[#d8c7b6]">
+
+            <img src="images/koffie.jpg" class="w-24 h-24 rounded-xl object-cover" alt="Koffie">
+
+            <div class="flex-1">
+                <h2 class="font-semibold text-lg">Koffie to-go</h2>
+                <p class="text-gray-500 text-sm">Vers gezet, warm en sterk</p>
+            </div>
+
+            <div class="text-right">
+                <p class="font-bold text-[var(--kleur-hoofd)]">€2.80</p>
+                <p class="text-sm text-gray-500">x1</p>
+            </div>
+
+        </div>
+
+        <!-- SUMMARY CARD -->
+        <div class="bg-[#e9ddcf] rounded-2xl p-6 shadow-md border border-[#d8c7b6]">
+
+            <div class="flex justify-between mb-2">
+                <span>Subtotaal</span>
+                <span>€12.10</span>
+            </div>
+
+            <div class="flex justify-between mb-4">
+                <span>Verzending</span>
+                <span>€2.00</span>
+            </div>
+
+            <hr class="my-4 border-[#d0c1b0]">
+
+            <div class="flex justify-between font-bold text-lg">
+                <span>Totaal</span>
+                <span class="text-[var(--kleur-hoofd)]">€14.10</span>
+            </div>
+
+            <button type="button" aria-label="#"
+                class="w-full mt-6 bg-[var(--kleur-hoofd)] text-white py-3 rounded-xl hover:opacity-90 transition">
+                Afrekenen
+            </button>
+
+        </div>
+
+    </section>
+    <!-- INFO -->
+    <section class="border-t py-10 text-center text-sm">
+
+        <p class="text-gray-800">
+            De Ovenbuur • Ambachtelijk brood &amp; koffie
+        </p>
+
+        <p class="text-gray-600">
+            Brussels, België
+        </p>
+
+    </section>
+</body>
+
+</html>
