@@ -1,3 +1,0 @@
-# Basic Web Development
-
-## Herkansing
